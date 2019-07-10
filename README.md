@@ -1,4 +1,4 @@
-# YT-clone
-Basic HTML structure project for Microverse 
+# mint-SignUp
+Displaying and Inputing Data Project for Microverse 
 
-Made with love and care by Matheus Lopes da Silva and Miguel Prada.
+Made with love and care by Miguel Prada and Matheus Lopes da Silva.
