@@ -1,5 +1,4 @@
 # mint-SignUp
-
 Basic HTML forms project for Microverse.
 
 This is a clone website from [Intuit SignUp](https://accounts.intuit.com/signup) page.
