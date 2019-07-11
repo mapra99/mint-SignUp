@@ -1,4 +1,6 @@
 # YT-clone
-Basic HTML structure project for Microverse 
+Basic HTML forms project for Microverse.
 
-Made with love and care by Matheus Lopes da Silva and Miguel Prada.
+This is a clone website from [Intuit Signup](https://accounts.intuit.com/signup) page.
+
+Made with love and care by [Matheus Lopes da Silva](https://github.com/matheus-fls) and [Miguel Prada](https://github.com/mprada99).
