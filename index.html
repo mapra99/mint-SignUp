@@ -22,46 +22,48 @@
             </header>
         </div>
     </section>
-    <section>
-        <form name="create-account">
-            <fieldset class="form-container">
+<section>
+    <form name="create-account">
+        <fieldset class="form-container">
+            <div class="header-container">
                 <div class="form-header">
                     <h1>Create an Intuit account</h1>
                     <p>One account for everything Intuit, including Mint. </p>
                     <a href="#">Learn More</a>
                 </div>
-                <br>
-
-                <label>
-                    Email address
-                </label>
-                <div class="input-cont">
-                    <input type="email" name="email" required>
-                </div>
-
-                <label>
-                    Phone (recommended)
-                </label>
-                <div class="input-cont">
-                    <input type="tel" name="phone">
-                </div>
-
-                <label>
-                    Password
-
-                </label>
-                <div class="input-cont">
-                    <input type="password" name="password" required>
-                </div>
+            </div>
+            <br>
 
 
-                <input type="submit" name="submit" value="Create Account">
+            <label for="email">
+                Email address
+            </label>
+            <div class="input-cont">
+                <input type="email" name="email" id="email" required>
+            </div>
 
-            </fieldset>
+
+            <label for="phone">
+                Phone (recommended)
+            </label>
+            <div class="input-cont">
+                <input type="tel" name="phone" id="phone">
+            </div>
+
+            <label for="password">
+                Password
+            </label>
+            <div class="input-cont">
+                <input type="password" name="password" id="password" required>
+            </div>
 
 
-        </form>
-    </section>
+            <input type="submit" name="submit" value="Create Account">
+
+        </fieldset>
+
+    </form>
+</section>
 </body>
 
 </html>
