@@ -16,3 +16,19 @@ div{
 .header-sec{
     padding-top: 20vh;
 }
+
+.form-header{
+	display: inline-block;
+}
+
+.form-container{
+	text-align: center;
+}
+
+p{
+	margin-bottom: 2px;
+}
+
+a{
+	font-size: 0.8em;
+}
