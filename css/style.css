@@ -1,0 +1,18 @@
+body{
+    background-color: aliceblue;
+}
+
+section{
+    margin: auto;
+    width: 35vw;
+}
+
+div{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header-sec{
+    padding-top: 20vh;
+}
