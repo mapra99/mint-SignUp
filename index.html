@@ -9,88 +9,93 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<header>
-    <section class="header-section">
-        <div class="signin-container">
-            <div class="signin-text">
-                <p class="p-signin">Already have an Intuit account?</p>
-                <a href="#">I forgot my User ID or Password</a>
-            </div>
-            <div>
-                <button class="signin-button">
-                    Sign In
-                </button>
-            </div>
-        </div>
-        <div class="logo-container center-div">
-            <a href="#"><img src="images/intuit-logo.png" alt="Intuit Logo"></a>
-        </div>
-        <div class="services-container center-div">
-            <a href="#" class="serviceIcon"><img src="images/turboIcon.png" alt="Turbotax Logo"></a>
-            <a href="#" class="serviceIcon"><img src="images/quickIcon.png" alt="Quickbooks Logo"></a>
-            <a href="#" class="serviceIcon"><img src="images/mintIcon.png" alt="Mint Logo"></a>
-        </div>
-    </section>
-</header>
-
 <body>
 
-    <section>
-        <form name="create-account">
-            <fieldset class="form-container">
-                <div class="header-container">
-                    <div class="form-header">
-                        <h1>Create an Intuit account</h1>
-                        <p>One account for everything Intuit, including Mint. </p>
-                        <a href="#">Learn More</a>
+    <header>
+        <section class="header-section">
+            <div class="signin-container">
+                <div class="signin-text">
+                    <p class="p-signin">Already have an Intuit account?</p>
+                    <a href="#">I forgot my User ID or Password</a>
+                </div>
+                <div>
+                    <button class="signin-button">
+                        Sign In
+                    </button>
+                </div>
+            </div>
+            <div class="logo-container center-div">
+                <a href="#"><img src="images/intuit-logo.png" alt="Intuit Logo"></a>
+            </div>
+            <div class="services-container center-div">
+                <a href="#" class="serviceIcon"><img src="images/turboIcon.png" alt="Turbotax Logo"></a>
+                <a href="#" class="serviceIcon"><img src="images/quickIcon.png" alt="Quickbooks Logo"></a>
+                <a href="#" class="serviceIcon"><img src="images/mintIcon.png" alt="Mint Logo"></a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <section>
+            <form name="create-account">
+                <fieldset class="form-container">
+                    <div class="header-container">
+                        <div class="form-header">
+                            <h1>Create an Intuit account</h1>
+                            <p>One account for everything Intuit, including Mint. </p>
+                            <a href="#">Learn More</a>
+                        </div>
                     </div>
-                </div>
-                <br>
+                    <br>
 
 
-                <label for="email">
-                    Email address
-                </label>
-                <div class="input-cont">
-                    <input type="email" name="email" id="email" placeholder="You'll verify this later" required>
-                </div>
+                    <label for="email">
+                        Email address
+                    </label>
+                    <div class="input-cont">
+                        <input type="email" name="email" id="email" placeholder="You'll verify this later" required>
+                    </div>
 
 
-                <label for="phone">
-                    Phone (recommended)
-                </label>
-                <div class="input-cont">
-                    <input type="tel" name="phone" id="phone" placeholder="Helps with lost passwords and security" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </div>
+                    <label for="phone">
+                        Phone (recommended)
+                    </label>
+                    <div class="input-cont">
+                        <input type="tel" name="phone" id="phone" placeholder="Helps with lost passwords and security"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
 
-                <label for="password">
-                    Password
-                </label>
-                <div class="input-cont">
-                    <input type="password" name="password" id="password" placeholder="Don't reuse an old password"
-                        required>
-                </div>
+                    <label for="password">
+                        Password
+                    </label>
+                    <div class="input-cont">
+                        <input type="password" name="password" id="password" placeholder="Don't reuse an old password"
+                            required>
+                    </div>
 
-                <div class="button-cont">
-                    <input type="submit" name="submit" class="submit-button" value="Create Account">
-                </div>
+                    <div class="button-cont">
+                        <input type="submit" name="submit" class="submit-button" value="Create Account">
+                    </div>
 
-            </fieldset>
+                </fieldset>
 
-        </form>
-    </section>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+
+        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+            trademarks of Intuit Inc.</p>
+
+        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+
+    </footer>
+
 </body>
-
-<footer>
-    <a href="#">Legal</a>
-    <a href="#">Privacy</a>
-    <a href="#">Security</a>
-
-    <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
-        trademarks of Intuit Inc.</p>
-
-    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-
-</footer>
 
 </html>
