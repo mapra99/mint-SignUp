@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head class="header">
     <meta charset="UTF-8">
 
     <title>Intuit Accounts - Sign Up</title>
@@ -9,64 +9,76 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <section class="header-sec">
-        <div>
-            <header>
-                <div class="logo-container">
-                    <a href="#"><img src="images/intuit-logo.png" alt="Intuit Logo"></a>
-                </div>
-                <div class="services-container">
-                    <img src="images/turboIcon.png" alt="Turbotax Logo">
-                    <img src="images/quickIcon.png" alt="Quickbooks Logo">
-                    <img src="images/mintIcon.png" alt="Mint Logo">
-                </div>
-            </header>
+<header>
+    <section class="header-section">
+        <div class="signin-container">
+            <div class="signin-text">
+                <p class="p-signin">Already have an Intuit account?</p>
+                <a href="#">I forgot my User ID or Password</a>
+            </div>
+            <div>
+                <button class="signin-button">
+                    Sign In
+                </button>
+            </div>
+        </div>
+        <div class="logo-container center-div">
+            <a href="#"><img src="images/intuit-logo.png" alt="Intuit Logo"></a>
+        </div>
+        <div class="services-container center-div">
+            <a href="#" class="serviceIcon"><img src="images/turboIcon.png" alt="Turbotax Logo"></a>
+            <a href="#" class="serviceIcon"><img src="images/quickIcon.png" alt="Quickbooks Logo"></a>
+            <a href="#" class="serviceIcon"><img src="images/mintIcon.png" alt="Mint Logo"></a>
         </div>
     </section>
-<section>
-    <form name="create-account">
-        <fieldset class="form-container">
-            <div class="header-container">
-                <div class="form-header">
-                    <h1>Create an Intuit account</h1>
-                    <p>One account for everything Intuit, including Mint. </p>
-                    <a href="#">Learn More</a>
+</header>
+
+<body>
+
+    <section>
+        <form name="create-account">
+            <fieldset class="form-container">
+                <div class="header-container">
+                    <div class="form-header">
+                        <h1>Create an Intuit account</h1>
+                        <p>One account for everything Intuit, including Mint. </p>
+                        <a href="#">Learn More</a>
+                    </div>
                 </div>
-            </div>
-            <br>
+                <br>
 
 
-            <label for="email">
-                Email address
-            </label>
-            <div class="input-cont">
-                <input type="email" name="email" id="email" placeholder="You'll verify this later" required>
-            </div>
+                <label for="email">
+                    Email address
+                </label>
+                <div class="input-cont">
+                    <input type="email" name="email" id="email" placeholder="You'll verify this later" required>
+                </div>
 
 
-            <label for="phone">
-                Phone (recommended)
-            </label>
-            <div class="input-cont">
-                <input type="tel" name="phone" id="phone" placeholder="Helps with lost passwords and security">
-            </div>
+                <label for="phone">
+                    Phone (recommended)
+                </label>
+                <div class="input-cont">
+                    <input type="tel" name="phone" id="phone" placeholder="Helps with lost passwords and security">
+                </div>
 
-            <label for="password">
-                Password
-            </label>
-            <div class="input-cont">
-                <input type="password" name="password" id="password" placeholder="Don't reuse an old password" required>
-            </div>
+                <label for="password">
+                    Password
+                </label>
+                <div class="input-cont">
+                    <input type="password" name="password" id="password" placeholder="Don't reuse an old password"
+                        required>
+                </div>
 
-            <div class="button-cont">
-                <input type="submit" name="submit" class = "submit-button"value="Create Account">
-            </div>
+                <div class="button-cont">
+                    <input type="submit" name="submit" class="submit-button" value="Create Account">
+                </div>
 
-        </fieldset>
+            </fieldset>
 
-    </form>
-</section>
+        </form>
+    </section>
 </body>
 
 <footer>
@@ -74,7 +86,8 @@
     <a href="#">Privacy</a>
     <a href="#">Security</a>
 
-    <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+    <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+        trademarks of Intuit Inc.</p>
 
     <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 

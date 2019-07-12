@@ -1,7 +1,7 @@
-body{
-    background-color: rgb(236, 238, 241); 
-	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: rgb(76,76,76);
+body {
+	background-color: rgb(236, 238, 241);
+	color: rgb(76, 76, 76);
+	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -10,118 +10,146 @@ h1 {
 
 p {
 	font-size: 14px;
+	margin-bottom: 2px;
 }
 
-section{
-    margin: auto;
-	width: 400px;
-	padding: 5px;
+section {
 	box-sizing: border-box;
+	margin: auto;
+	width: 385px;
 }
 
-div{
-    margin: auto;
-    display: flex;
-    justify-content: center;
+.header-section {
+	margin: 0;
+	width: 100%;
 }
 
-.header-sec{
-    padding-top: 10vh;
+.center-div {
+	display: flex;
+	justify-content: center;
+	margin: auto;
 }
 
-.form-header{
+.signin-container {
+	display: flex;
+	height: 9vh;
+	justify-content: right;
+	width: 100%;
+}
+
+.signin-text {
+	height: 38px;
+	margin-right: 10px;
+	margin-top: 2px;
+	text-align: right;
+}
+
+.p-signin {
+	font-size: .75em;
+	margin: 0;
+}
+
+.signin-button {
+	background-color: rgb(0, 119, 197);
+	border-radius: 5px;
+	border-style: solid;
+	color: white;
+	font-size: 14px;
+	height: 38px;
+	width: 100px;
+}
+
+.form-header {
 	display: inline-block;
 }
 
-.header-container{
-	text-align: center;
+.header-container {
 	padding-left: 10px;
+	text-align: center;
 }
 
-.form-container{
+.form-container {
 	background-color: white;
-	border-radius: 2px;
 	border: 1px lightgray solid;
-	
+	border-radius: 2px;
+	height: 600px;
 }
 
-input{
-	width: 100%;
-	padding: 10px;
-	border-radius: 2px; 
+.serviceIcon {
+	margin: 0 5px;
+}
+
+input {
 	border: 1px lightgray solid;
-	box-sizing: border-box; 
+	border-radius: 2px;
+	padding: 10px;
+	width: 93%;
 }
 
 input:focus {
-  border: 3px blue;
+	border: 3px blue;
 }
 
-label{
+label {
 	margin-left: 20px;
 	margin-right: 20px;
 }
 
-.input-cont{
+.input-cont {
 	margin: 20px;
 	padding-bottom: 20px;
 }
 
-.logo-container{
+.logo-container {
 	margin-bottom: 15px;
 }
 
-.services-container{
+.services-container {
+	margin-bottom: 15px;
 	margin-top: 15px;
-	margin-bottom: 15px;
 }
 
-p{
-	margin-bottom: 2px;
-}
-
-a{
-	font-size: 0.75em;
+a {
+	font-size: .75em;
 	text-decoration: none;
 }
 
-.submit-button{
-	background-color: rgb(0,119,197);
-	color: white;
-	font-size: 16px;	
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 100%;
+.submit-button {
+	background-color: rgb(0, 119, 197);
 	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 100%;
 }
 
-.button-cont{
+.button-cont {
+	margin-bottom: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
-	box-sizing: border-box;
-	margin-bottom: 20px;
 }
 
-footer{
-	text-align: center;
+footer {
+	margin-bottom: 20px;
 	margin-top: 15px;
-	margin-bottom: 20px;
+	text-align: center;
 }
 
-footer p{
-	font-size: 0.8em;
-	margin-top: 2px;
+footer p {
+	font-size: .8em;
 	margin-bottom: 2px;
+	margin-top: 2px;
 }
 
-footer a{
-	font-size: 0.8em;
-	text-decoration: none;
-	color: rgb(76,76,76);
-	margin-right: 2px;
+footer a {
+	color: rgb(76, 76, 76);
+	font-size: .8em;
 	margin-left: 2px;
+	margin-right: 2px;
+	text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
 	text-decoration: underline;
 }
