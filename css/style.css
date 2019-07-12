@@ -1,0 +1,157 @@
+body {
+	background-color: rgb(236, 238, 241);
+	color: rgb(76, 76, 76);
+	font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+p {
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+section {
+	margin: auto;
+	width: 385px;
+}
+
+.header-section {
+	margin: 0;
+	width: 100%;
+}
+
+.center-div {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.signin-container {
+	display: flex;
+	height: 9vh;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.signin-text {
+	height: 38px;
+	margin-right: 10px;
+	margin-top: 2px;
+	text-align: right;
+}
+
+.p-signin {
+	font-size: .75em;
+	margin: 0;
+}
+
+.signin-button {
+	background-color: rgb(0, 119, 197);
+	border-radius: 5px;
+	border-style: solid;
+	color: white;
+	font-size: 14px;
+	height: 38px;
+	width: 100px;
+}
+
+.form-header {
+	display: inline-block;
+}
+
+.header-container {
+	padding-left: 10px;
+	text-align: center;
+}
+
+.form-container {
+	background-color: white;
+	border: 1px lightgray solid;
+	border-radius: 2px;
+}
+
+.create-account{
+	height: 600px;
+}
+
+.serviceIcon {
+	margin: 0 5px;
+}
+
+input {
+	border: 1px lightgray solid;
+	border-radius: 2px;
+	padding: 10px;
+	width: 93%;
+}
+
+input:focus {
+	border: 3px blue;
+}
+
+label {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.input-cont {
+	margin: 20px;
+	padding-bottom: 20px;
+}
+
+.logo-container {
+	margin-bottom: 15px;
+}
+
+.services-container {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+a {
+	font-size: .75em;
+	text-decoration: none;
+}
+
+.submit-button {
+	background-color: rgb(0, 119, 197);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.button-cont {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+footer {
+	margin-bottom: 20px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+footer p {
+	font-size: .8em;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+footer a {
+	color: rgb(76, 76, 76);
+	font-size: .8em;
+	margin-left: 2px;
+	margin-right: 2px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}

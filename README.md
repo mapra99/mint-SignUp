@@ -1,4 +1,6 @@
 # mint-SignUp
-Displaying and Inputing Data Project for Microverse 
+Basic HTML forms project for Microverse.
 
-Made with love and care by Miguel Prada and Matheus Lopes da Silva.
+This is a clone website from [Intuit SignUp](https://accounts.intuit.com/signup) page.
+
+Made with love and care by [Matheus Lopes da Silva](https://github.com/matheus-fls) and [Miguel Prada](https://github.com/mprada99).
