@@ -14,7 +14,6 @@ p {
 }
 
 section {
-	box-sizing: border-box;
 	margin: auto;
 	width: 385px;
 }
@@ -33,7 +32,7 @@ section {
 .signin-container {
 	display: flex;
 	height: 9vh;
-	justify-content: right;
+	justify-content: flex-end;
 	width: 100%;
 }
 
@@ -72,9 +71,11 @@ section {
 	background-color: white;
 	border: 1px lightgray solid;
 	border-radius: 2px;
-	height: 600px;
 }
 
+.form-container2{
+	height: 600px;
+}
 .serviceIcon {
 	margin: 0 5px;
 }
