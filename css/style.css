@@ -71,6 +71,9 @@ section {
 	background-color: white;
 	border: 1px lightgray solid;
 	border-radius: 2px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
 }
 
 .create-account{
@@ -140,12 +143,24 @@ a {
 
 .terms-cont p, .terms-cont a{
 	line-height: 1.5em;
-	font-size: .75em;
+	font-size: 12px;
 }
 
+.captcha-cont{
+	display: inline-block;
+	background-color: rgb(236, 238, 241);
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px;
+}
+
+.captcha-cont p, .captcha-cont a{
+	text-align: center;
+	font-size: 9px;
+}
 footer {
 	margin-bottom: 20px;
-	margin-top: 15px;
+	margin-top: 30px;
 	text-align: center;
 }
 
