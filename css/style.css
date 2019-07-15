@@ -132,6 +132,17 @@ a {
 	margin-right: 20px;
 }
 
+.terms-cont{
+	font-style: italic;
+	padding: 20px 40px;
+	text-align: center;
+}
+
+.terms-cont p, .terms-cont a{
+	line-height: 1.5em;
+	font-size: .75em;
+}
+
 footer {
 	margin-bottom: 20px;
 	margin-top: 15px;
